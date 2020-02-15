@@ -1,3 +1,7 @@
+body {
+    margin: 0 !important;
+}
+
 .background{
     /* Control the height of the image */
     min-height: 100%;
@@ -14,10 +18,11 @@
     font-family: 'Chewy', cursive;
     font-size: 100px;
     margin-left: 50%;
+    text-shadow: 4px 4px lightpink;
 }
 .description{
     font-family: 'Pacifico', cursive;
-    font-size: 15px;
+    font-size: 20px;
 }
 .start{
     width: 30%;
