@@ -25,9 +25,9 @@ body {
     font-size: 20px;
 }
 .start{
-    background-color: #4CAF50;
+    background-color: #ffcfd8;
     color: black;
-    border: 2px solid #4CAF50; /* Green */
+    border: 2px solid lightpink;
     width: 30%;
     line-height: 40px;
     margin-left: 35%;
@@ -38,6 +38,6 @@ body {
   }
   
 .start:hover {
-    background-color: white; /* Green */
-    color: #4CAF50;
+    background-color: white; 
+    color: lightpink;
   }
