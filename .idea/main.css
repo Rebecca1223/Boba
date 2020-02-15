@@ -1,8 +1,19 @@
 .body{
-
+    background-image: url("https://media.istockphoto.com/vectors/boba-tea-seamless-pattern-vector-bubble-milk-tea-scarf-isolated-vector-id1168108717");
 }
 
 .name{
     font-family: 'Chewy', cursive;
     font-size: 100px;
+    margin-left: 50%;
+}
+.description{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+}
+.start{
+    width: 30%;
+    line-height: 40px;
+    margin-left: 35%;
+    margin-right: 35%
 }
