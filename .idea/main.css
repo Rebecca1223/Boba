@@ -4,10 +4,10 @@
     min-width: 100%;
 
     /* Center and scale the image nicely */
-    background-position: 0 -250px;
     background-repeat: no-repeat;
     background-size: 100%, 100%;
-    background-image: url("https://media.istockphoto.com/vectors/boba-tea-seamless-pattern-vector-bubble-milk-tea-scarf-isolated-vector-id1168108717");
+    background-image: url("https://www.elsetge.cat/myimg/f/74-747834_watercolor-background-tumblr-mint-green-pastel-background.jpg");
+    position: absolute;
 }
 
 .name{
@@ -24,5 +24,4 @@
     line-height: 40px;
     margin-left: 35%;
     margin-right: 35%
-    /*akjsydfgajshdfgkj*/
 }
