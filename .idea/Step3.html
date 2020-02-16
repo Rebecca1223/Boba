@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Chewy|Pacifico&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="Step3.css">
-    <script src="main.js"></script>
 
 </head>
 <body>
@@ -21,9 +20,32 @@
             <a href="Step4.html" id="step4">Step 4: Sugar Level</a>
             <a href="Step5.html" id="step5">Step 5: Ice Level</a>
         </div>
+
+        <script>
+          var top;
+          function add6() {
+            top= "with tapiocal pearls";
+          }
+
+          function add7() {
+            top= "with coconut jelly";
+          }
+
+          function add8() {
+            top= "with grass jelly";
+          }
+
+          function add9() {
+            top= "with red beans";
+          }
+
+          export {top };
+
+        </script>
+
         <div class="tapioca">
             <a href = "Step4.html"> 
-            <img src="https://www.the-alley.us/images/page/quality-img_deerioca.png" alt="tapiocaPearl" class="imageTapioca">
+            <img id="tap" src="https://www.the-alley.us/images/page/quality-img_deerioca.png" alt="tapiocaPearl" class="imageTapioca" onclick="add6()">
             <div class="overlayPearls">
               <div class="textTapioca"><strong>Tapioca</strong> <p><i>Chewy!</i></p> <p>Calories: Regular-150    Large-190</p></div>
             </div>
@@ -31,7 +53,7 @@
         
         <div class="Jelly">
             <a href = "Step4.html"> 
-            <img src="https://chatime.com/wp-content/uploads/2019/04/toppings-coconut-jelly.png" alt="jelly" class="imageJelly">
+            <img id="jelly" src="https://chatime.com/wp-content/uploads/2019/04/toppings-coconut-jelly.png" alt="jelly" class="imageJelly" onclick="add7()">
             <div class="overlayJelly">
               <div class="textJelly"><strong>Coconut Jelly</strong> <p><i>Tropical!</i></p> <p>Calories: Regular-130 Large-170</p></div>
             </div>
@@ -39,7 +61,7 @@
 
           <div class="grassjelly">
             <a href = "Step4.html"> 
-            <img src="https://pngimage.net/wp-content/uploads/2018/06/grass-jelly-png.png" alt="GrassJelly" class="imageGJ">
+            <img id="grass" src="https://pngimage.net/wp-content/uploads/2018/06/grass-jelly-png.png" alt="GrassJelly" class="imageGJ" onclick="add8()">
             <div class="overlayGJ">
               <div class="textGJ"><strong>Grass Jelly</strong> <p><i>Delightful!</i></p> <p>Calories: Regular-60    Large-80</p></div>
             </div>
@@ -47,11 +69,12 @@
         
         <div class="redbean">
             <a href = "Step4.html"> 
-            <img src="https://chatime.com/wp-content/uploads/2019/04/toppings-red-bean.png" alt="RedBean" class="imageRB">
+            <img id="red" src="https://chatime.com/wp-content/uploads/2019/04/toppings-red-bean.png" alt="RedBean" class="imageRB" onclick="add9()">
             <div class="overlayRB">
               <div class="textRB"><strong>Red Bean</strong> <p><i>Rich!</i></p> <p>Calories: Regular-260 Large-290</p></div>
             </div>
           </div>
+
     </div>
 </body>
 </html>
