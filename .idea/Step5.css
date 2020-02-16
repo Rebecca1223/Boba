@@ -16,24 +16,25 @@ body {
     /* Center and scale the image nicely */
     background-repeat: no-repeat;
     background-size: 100%, 100%;
-    background-color: #e2fff0;
+    background-color: #eefff6;
     position: absolute;
 }
 
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
-    left: -155px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 190px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
+    left: -155px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 190px; 
+    text-decoration: none; 
     line-height: 25px;
-    font-size: 16px; /* Increase font size */
-    color: black; /* White text color */
+    font-size: 16px; 
+    color: black; 
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
     font-family: 'Pacifico', cursive;
 }
+
 
 #mySidenav a.active {
     left:0;
@@ -68,3 +69,129 @@ body {
     top: 470px;
     background-color: #ffc7f4;
 }
+
+.hot {
+    position: absolute;
+    width: 13%;
+    left: 600px;
+    top: 150px;
+  }
+  
+  .imageHot {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlayHot {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #eefff6;
+  }
+  
+.hot:hover .overlayHot {
+    opacity: 1;
+  }
+  
+.textHot {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .half {
+    position: absolute;
+    width: 12%;
+    left: 400px;
+    top: 320px;
+  }
+  
+  .imageHalf {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlayHalf {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #eefff6;
+  }
+  
+.half:hover .overlayHalf {
+    opacity: 1;
+  }
+  
+.textHalf {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .full {
+    position: absolute;
+    width: 19%;
+    left: 750px;
+    top: 320px;
+  }
+  
+  .imageFull {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlayFull {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #eefff6;
+  }
+  
+.full:hover .overlayFull {
+    opacity: 1;
+  }
+  
+.textFull {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
