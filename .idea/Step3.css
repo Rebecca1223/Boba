@@ -107,6 +107,7 @@ body {
     position: relative;
     width: 15%;
     left: 350px;
+    top: 25px;
   }
   
   .imageTapioca {
@@ -147,7 +148,7 @@ body {
     position: relative;
     width: 15%;
     left: 370px;
-    top: 30px;
+    top: 75px;
   }
   
   .imageGJ {

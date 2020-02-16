@@ -93,7 +93,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #e2fff0;
+    background-color: #eefff6;
   }
   
 .hot:hover .overlayHot {
@@ -135,7 +135,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #e2fff0;
+    background-color: #eefff6;
   }
   
 .half:hover .overlayHalf {
@@ -177,7 +177,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #e2fff0;
+    background-color: #eefff6;
   }
   
 .full:hover .overlayFull {

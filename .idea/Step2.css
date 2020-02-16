@@ -71,7 +71,7 @@ body {
 
 .wm {
   position: absolute;
-  width: 10%;
+  width: 12%;
   left: 450px;
   top: 150px;
 }
@@ -91,7 +91,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #e2fff0;
+  background-color: #eefff6;
 }
 
 .wm:hover .overlayWm {
@@ -113,7 +113,7 @@ body {
 
 .jas {
     position: absolute;
-    width: 10%;
+    width: 12%;
     left: 850px;
     top: 150px;
   }
@@ -134,7 +134,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #e2fff0;
+    background-color: #eefff6;
   }
   
 .jas:hover .overlayJas {
@@ -155,7 +155,7 @@ body {
 
   .honey {
     position: absolute;
-    width: 10%;
+    width: 12%;
     left: 450px;
     top: 350px;
   }
@@ -176,7 +176,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #e2fff0;
+    background-color: #eefff6;
   }
   
 .honey:hover .overlayHoney {
@@ -197,7 +197,7 @@ body {
 
   .ool {
     position: absolute;
-    width: 17%;
+    width: 19%;
     left: 800px;
     top: 320px;
   }
@@ -218,7 +218,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #e2fff0;
+    background-color: #eefff6;
   }
   
 .ool:hover .overlayOol {
