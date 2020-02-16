@@ -68,3 +68,130 @@ body {
     top: 470px;
     background-color: #ffc7f4;
 }
+
+.none {
+    position: absolute;
+    width: 15%;
+    left: 350px;
+    top: 250px;
+}
+
+.imageNone {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.overlayNone {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e2fff0;
+}
+
+.none:hover .overlayNone {
+    opacity: 1;
+}
+
+.textNone {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.half {
+    position: relative;
+    width: 18%;
+    left: 700px;
+    top: 125px;
+}
+
+.imageHalf {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.overlayHalf {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e2fff0;
+}
+
+.half:hover .overlayHalf {
+    opacity: 1;
+}
+
+.textHalf {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.full {
+    position: relative;
+    width: 14%;
+    left: 1150px;
+    bottom: 125px;
+}
+
+.imageFull {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+.overlayFull {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e2fff0;
+}
+
+.full:hover .overlayFull {
+    opacity: 1;
+}
+
+.textFull {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
