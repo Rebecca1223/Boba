@@ -71,9 +71,9 @@ body {
 
 .none {
     position: absolute;
-    width: 15%;
-    left: 350px;
-    top: 250px;
+    width: 14%;
+    left: 600px;
+    top: 150px;
 }
 
 .imageNone {
@@ -113,9 +113,9 @@ body {
 
 .half {
     position: relative;
-    width: 18%;
-    left: 700px;
-    top: 125px;
+    width: 15%;
+    left: 400px;
+    top: 200px;
 }
 
 .imageHalf {
@@ -154,10 +154,10 @@ body {
 }
 
 .full {
-    position: relative;
-    width: 14%;
-    left: 1050px;
-    top: 75px;
+    position: absolute;
+    width: 16%;
+    left: 800px;
+    top: 300px;
 }
 
 .imageFull {
@@ -165,7 +165,6 @@ body {
     width: 100%;
     height: auto;
 }
-
 
 .overlayFull {
     position: absolute;
@@ -195,3 +194,6 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
+
