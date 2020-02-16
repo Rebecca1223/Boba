@@ -77,7 +77,6 @@ body {
   }
   
   .imageFresh {
-    display: flex;
     width: 100%;
     height: auto;
   }
@@ -119,7 +118,6 @@ body {
   }
   
   .imageMilk {
-    display: flex;
     width: 100%;
     height: auto;
   }
