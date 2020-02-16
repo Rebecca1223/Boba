@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>BobaBaby</title>
+    <link rel="vars1" href="Step1.html">    
+    <link rel="vars2" href="Step2.html">    
+    <link rel="vars3" href="Step3.html">    
+    <link rel="vars4" href="Step4.html">    
+    <link rel="vars5" href="Step5.html">   
+     
+    <script>
+        import { tea } from './Step1.html'
+        import { flav } from './Step2.html'
+        import { top } from './Step3.html'
+        import { sugar } from './Step4.html'
+        import { ice } from './Step5.html'
+
+    </script>
+
+
 </head>
 <body>
-
+<div>
+    <p id="names"> Hello</p>
+</div>
+<script type="text/javascript">
+    
+    var name;
+   
+    name=tea+flav+top+sugar+ice;
+    document.getElementById("names").innerHTML = name;  
+    document.getElementById("names").innerHTML = "hi";  
+     </script>
 </body>
 </html>

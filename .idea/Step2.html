@@ -7,12 +7,32 @@
     <link href="https://fonts.googleapis.com/css?family=Chewy|Pacifico&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="Step2.css">
-    <script src="main.js"></script>
-
 </head>
 <body>
     <div class="background">
         <h2 class="name">Craft your perfect Boba</h2>
+
+        <script>
+          var flav;
+          function add2() {
+            flav= "jasmine tea ";
+          }
+
+          function add3() {
+            flav= "honey tea ";
+          }
+
+          function add4() {
+            flav= "oolong tea ";
+          }
+
+          function add5() {
+            flav= "wintermelon tea ";
+          }
+
+          export {flav };
+
+        </script>
 
         <div id="mySidenav" class="sidenav">
             <a href="Step1.html" id="step1">Step 1: Drink Type</a>
@@ -24,7 +44,7 @@
 
         <div class="wm">
           <a href = "Step3.html"> 
-          <img src="https://webstockreview.net/images/clipart-winter-icon-12.png" alt="wmt" class="imageWm" >
+          <img id="wm" src="https://webstockreview.net/images/clipart-winter-icon-12.png" alt="wmt" class="imageWm" onclick="add5()">
           <div class="overlayWm">
             <div class="textWm"><strong>Wintermelon</strong> <p><i>Cooling!</i></p></div>
           </div>
@@ -32,7 +52,7 @@
 
         <div class="jas">
             <a href = "Step3.html"> 
-            <img src="https://cdn.clipart.email/60eff6ca5837e8557b06135ff3db01df_jasmine-flower-clipart_400-358.png" alt="jas" class="imageJas">
+            <img id="jas" src="https://cdn.clipart.email/60eff6ca5837e8557b06135ff3db01df_jasmine-flower-clipart_400-358.png" alt="jas" class="imageJas" onclick="add2()">
             <div class="overlayJas">
               <div class="textJas"><strong>Jasmine</strong> <p><i>Fragrant!</i></p></div>
             </div>
@@ -40,7 +60,7 @@
 
         <div class="honey">
             <a href = "Step3.html"> 
-            <img src="https://webstockreview.net/images/honey-clipart-honey-jar-1.png" alt="honey" class="imageHoney">
+            <img id="honey" src="https://webstockreview.net/images/honey-clipart-honey-jar-1.png" alt="honey" class="imageHoney" onclick="add3()">
             <div class="overlayHoney">
               <div class="textHoney"><strong>Honey</strong> <p><i>Sweet!</i></p></div>
             </div>
@@ -48,7 +68,7 @@
 
         <div class="ool">
             <a href = "Step3.html"> 
-            <img src="https://teanteas.com/wp-content/uploads/2018/08/CC-Oolong-Nilgiri-Oolong-B.png" alt="ool" class="imageOol">
+            <img id="ool" src="https://teanteas.com/wp-content/uploads/2018/08/CC-Oolong-Nilgiri-Oolong-B.png" alt="ool" class="imageOol" onclick="add4()">
             <div class="overlayOol">
               <div class="textOol"><strong>Oolong</strong> <p><i>Toasty!</i></p></div>
             </div>

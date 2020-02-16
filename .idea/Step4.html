@@ -7,8 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Chewy|Pacifico&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="Step4.css">
-    <script src="main.js"></script>
-
 </head>
 <body>
 <div class="background">
@@ -21,9 +19,29 @@
         <a href="Step4.html" id="step4" class="active">Step 4: Sugar Level</a>
         <a href="Step5.html" id="step5">Step 5: Ice Level</a>
     </div>
+
+    <script>
+        var sugar;
+        
+        function add0() {
+        sugar= "at no sugar";
+        }
+
+        function add11() {
+        sugar= "at half sugar";
+        }
+
+        function add12() {
+        sugar= "at full sugar";
+        }
+
+        export {sugar };
+
+    </script>
+
     <div class="none">
         <a href = "Step5.html">
-            <img src="https://cdn2.iconfinder.com/data/icons/diets-and-ingredient-labels/109/sugar-512.png" alt="noSugar" class="imageNone">
+            <img id="none" src="https://cdn2.iconfinder.com/data/icons/diets-and-ingredient-labels/109/sugar-512.png" alt="noSugar" class="imageNone" onclick="add0()">
             <div class="overlayNone">
                 <div class="textNone"><strong>No Sugar</strong> <p><i>Calories: -90!</i></p></div>
             </div>
@@ -31,7 +49,7 @@
 
     <div class="half">
         <a href = "Step5.html">
-            <img src="https://www.pinclipart.com/picdir/big/17-177692_sugar-change-4-life-sugar-cubes-clipart.png" alt="halfSugar" class="imageHalf">
+            <img id="halfS" src="https://www.pinclipart.com/picdir/big/17-177692_sugar-change-4-life-sugar-cubes-clipart.png" alt="halfSugar" class="imageHalf" onclick="add11()">
             <div class="overlayHalf">
                 <div class="textHalf"><strong>Half Sugar</strong> <p><i>Calories: -45!</i></p></div>
             </div>
@@ -39,13 +57,11 @@
 
     <div class="full">
         <a href = "Step5.html">
-            <img src="https://sc01.alicdn.com/kf/UTB8DMVcuf2JXKJkSanr7613lVXaR/Wholesale-Sugar-in-250g-Bag-Bulk-Dark.png" alt="fullSugar" class="imageFull">
+            <img id="fullS" src="https://sc01.alicdn.com/kf/UTB8DMVcuf2JXKJkSanr7613lVXaR/Wholesale-Sugar-in-250g-Bag-Bulk-Dark.png" alt="fullSugar" class="imageFull" onclick="add12()">
             <div class="overlayFull">
                 <div class="textFull"><strong>Full Sugar</strong> <p><i>Calories: -0!</i></p></div>
             </div>
     </div>
-    
-
    
 
 </div>
