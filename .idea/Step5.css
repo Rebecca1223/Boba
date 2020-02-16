@@ -72,7 +72,7 @@ body {
 
 .hot {
     position: absolute;
-    width: 13%;
+    width: 15%;
     left: 600px;
     top: 150px;
   }
@@ -114,8 +114,8 @@ body {
 
   .half {
     position: absolute;
-    width: 12%;
-    left: 400px;
+    width: 14%;
+    left: 380px;
     top: 320px;
   }
   
@@ -156,8 +156,8 @@ body {
 
   .full {
     position: absolute;
-    width: 19%;
-    left: 750px;
+    width: 21%;
+    left: 770px;
     top: 320px;
   }
   
