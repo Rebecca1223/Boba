@@ -40,4 +40,8 @@ body {
 .start:hover {
     background-color: white; 
     color: lightpink;
-  }
+}
+.credit{
+    margin-left: 78%;
+    margin-top: 15.3%;
+}

@@ -35,6 +35,10 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
+#mySidenav a.active {
+    left:0;
+}
+
 #mySidenav a:hover {
     left: 0; /* On mouse-over, make the elements appear as they should */
 }
@@ -74,4 +78,14 @@ body {
 .fresh img{
     height:250px;
     width:auto;
+}
+
+.milk{
+    position: relative;
+    left: 300px;
+}
+
+.milk img{
+    height: 350px;
+    width: auto;
 }

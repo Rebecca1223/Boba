@@ -35,6 +35,10 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
+#mySidenav a.active {
+    left:0;
+}
+
 #mySidenav a:hover {
     left: 0; /* On mouse-over, make the elements appear as they should */
 }
