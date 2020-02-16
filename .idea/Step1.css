@@ -64,3 +64,14 @@ body {
     top: 470px;
     background-color: #ffc7f4;
 }
+
+.fresh{
+    position: relative;
+    left: 800px;
+    top: 70px;
+}
+
+.fresh img{
+    height:250px;
+    width:auto;
+}
