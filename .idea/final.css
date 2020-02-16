@@ -26,8 +26,8 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
 }
 .column2 {
-    position: relative;
-    margin-left: 45%;
+    position: absolute;
+    margin-left: 30%;
     margin-right: 30%;
     margin-top: 5%;
     right: 0;
@@ -46,7 +46,7 @@ body {
 .restart {
     margin-right: 35%;
     margin-left: 35%;
-    margin-top: 0px;
+    margin-top: 30%;
 }
 
 .start {
@@ -56,21 +56,4 @@ body {
 .start:hover {
     background-color: white;
     color: lightpink;
-}
-
-.column1{
-    margin-top: -50px;
-    margin-left: 250px;
-    padding: 20px;
-}
-.column2 {
-    float: left;
-    width: 30%;
-    margin-top: -350px;
-    padding: 40px;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
