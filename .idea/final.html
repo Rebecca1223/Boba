@@ -25,6 +25,7 @@
 
 </head>
 <body>
+
     <div class="background">
         <div style="text-align:center">
             <br>
@@ -33,7 +34,7 @@
         <div class="container">
             <div class="row">
                 <div class="column1">
-                    <img src="/w3images/map.jpg" style="width:100%">
+                    <img src="/w3images/map.jpg" style="width:50%">
                 </div>
                 <div class="column2">
                     <h2>Boba Name:</h2>
@@ -49,19 +50,17 @@
             <br>
             <button onclick="window.location.href = 'main.html';" class="start"><span>Try a different boba!</span></button>
         </div>
+        <div>
+            <p id="names"> Hello</p>
+        </div>
+        <script type="text/javascript">
+            var name;
+            name=tea;
+            document.getElementById("names").innerHTML = tea;  
+            document.write('hi');
+        </script>
     </div>
 
-    <div>
-        <p id="names"> Hello</p>
-    </div>
-    <script type="text/javascript">
-        
-        var name;
-       
-        name=tea+flav+top+sugar+ice;
-        document.getElementById("names").innerHTML = name;  
-        document.write('hi');  
-         </script>
 
 </body>
 </html>
