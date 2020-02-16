@@ -68,3 +68,11 @@ body {
     top: 470px;
     background-color: #ffc7f4;
 }
+.milk{
+    position: relative;
+    left: 300px;
+}
+.milk img{
+    height: 350px;
+    width: auto;
+}
