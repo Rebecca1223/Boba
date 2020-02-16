@@ -16,24 +16,25 @@ body {
     /* Center and scale the image nicely */
     background-repeat: no-repeat;
     background-size: 100%, 100%;
-    background-color: #e2fff0;
+    background-color: #eefff6;
     position: absolute;
 }
 
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
-    left: -155px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 190px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
+    left: -155px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 190px; 
+    text-decoration: none; 
     line-height: 25px;
-    font-size: 16px; /* Increase font size */
-    color: black; /* White text color */
+    font-size: 16px; 
+    color: black; 
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
     font-family: 'Pacifico', cursive;
 }
+
 
 #mySidenav a.active {
     left:0;
