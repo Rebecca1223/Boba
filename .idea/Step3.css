@@ -35,21 +35,13 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
-#mySidenav a.active {
-    left:0;
-}
-
-#mySidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
-}
-
 /* The about link: 20px from the top with a green background */
 #step1 {
     top: 150px;
     background-color: #ffc7c7;
 }
 
-#step2tea {
+#step2 {
     top: 230px;
     background-color: #ffeac7;
 }

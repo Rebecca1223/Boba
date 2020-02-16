@@ -70,8 +70,9 @@ body {
 }
 
 .fresh{
-    right: 750px;
-    top: 70px;
+    position: absolute;
+    left: 800px;
+    top: 250px;
 }
 
 .fresh img{
@@ -80,12 +81,11 @@ body {
 }
 
 .milk{
-    position: relative;
-    right: 450px;
-    bottom: 330px;
+    position: absolute;
+    left: 300px;
 }
 
 .milk img{
-    height: 350px;
+    height: 340px;
     width: auto;
 }
