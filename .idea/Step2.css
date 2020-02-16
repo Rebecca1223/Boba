@@ -6,7 +6,7 @@ body {
     font-family: 'Chewy', cursive;
     text-align: center;
     font-size: 50px;
-    text-shadow: 2px 2px lightpink;
+    text-shadow: 2px 2px #ffeac7;
 }
 .background{
     /* Control the height of the image */
@@ -68,3 +68,171 @@ body {
     top: 470px;
     background-color: #ffc7f4;
 }
+
+.wm {
+  position: absolute;
+  width: 10%;
+  left: 450px;
+  top: 150px;
+}
+
+.imageWm {
+  width: 100%;
+  height: auto;
+}
+
+.overlayWm {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e2fff0;
+}
+
+.wm:hover .overlayWm {
+  opacity: 1;
+}
+
+.textWm {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.jas {
+    position: absolute;
+    width: 10%;
+    left: 850px;
+    top: 150px;
+  }
+  
+  .imageJas {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  
+  .overlayJas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e2fff0;
+  }
+  
+.jas:hover .overlayJas {
+    opacity: 1;
+  }
+  
+.textJas {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .honey {
+    position: absolute;
+    width: 10%;
+    left: 450px;
+    top: 350px;
+  }
+  
+  .imageHoney {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  
+  .overlayHoney {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e2fff0;
+  }
+  
+.honey:hover .overlayHoney {
+    opacity: 1;
+  }
+  
+.textHoney {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .ool {
+    position: absolute;
+    width: 17%;
+    left: 800px;
+    top: 320px;
+  }
+  
+  .imageOol {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlayOol {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e2fff0;
+  }
+  
+.ool:hover .overlayOol {
+    opacity: 1;
+  }
+  
+.textOol {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
