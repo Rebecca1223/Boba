@@ -71,8 +71,8 @@ body {
 
 .fresh{
     position: absolute;
-    left: 800px;
-    top: 250px;
+    left: 750px;
+    top: 220px;
 }
 
 .fresh img{
@@ -82,7 +82,8 @@ body {
 
 .milk{
     position: absolute;
-    left: 300px;
+    left: 320px;
+    top: 155px;
 }
 
 .milk img{
